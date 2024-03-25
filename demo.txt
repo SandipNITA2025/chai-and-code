@@ -1,0 +1,24 @@
+index.js:
+
+/* 
+import express from "express";
+const app = express()(
+  //IIFE:
+  async () => {
+    try {
+      await mongoose.connect(`${process.env.DATABASE_URL}/${DB_NAME}`);
+      app.on("error", (error) => {
+        console.log("Error", error);
+        throw error;
+      });
+
+      app.listen(process.env.PORT, () => {
+        console.log("server running on PORT 8080");
+      });
+    } catch (error) {
+      console.log("ERROR", error);
+      throw error;
+    }
+  }
+)();
+*/
